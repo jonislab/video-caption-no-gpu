@@ -13,6 +13,9 @@ python --version
 ```
 
 ### Step 2: Install Dependencies
+
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
 Clone or download this repository, navigate to the project directory in your terminal, and install the required Python packages (including `openai-whisper`):
 ```bash
 pip install -r requirements.txt
