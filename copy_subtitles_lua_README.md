@@ -71,7 +71,7 @@ Open `copy_subtitles_to_video_track_internal_v2.lua` in any text editor to adjus
 -- =============================================================================
 -- USER CONFIGURATION
 -- =============================================================================
-local TEMPLATE_NAME = "TFx-Caption2"   -- Title template name in Media Pool
+local TEMPLATE_NAME = "TFx-Caption"   -- Title template name in Media Pool
 local SUBTITLE_TRACK = "Subtitle 1"    -- Track index (e.g. 1) or track name ("Subtitle 1")
 local TARGET_VIDEO_TRACK = 2           -- Target video track index (e.g. 2), or nil for auto-new track
 -- =============================================================================
@@ -81,7 +81,7 @@ local TARGET_VIDEO_TRACK = 2           -- Target video track index (e.g. 2), or 
 
 | Variable | Type | Default | Description |
 | :--- | :---: | :---: | :--- |
-| `TEMPLATE_NAME` | `string` | `"TFx-Caption2"` | Name of the Fusion Title template clip in your Media Pool. |
+| `TEMPLATE_NAME` | `string` | `"TFx-Caption"` | Name of the Fusion Title template clip in your Media Pool. |
 | `SUBTITLE_TRACK`| `string` / `number` | `"Subtitle 1"` | Name (e.g. `"Subtitle 1"`) or 1-based index (e.g. `1`) of source subtitle track. |
 | `TARGET_VIDEO_TRACK` | `number` / `nil` | `2` | Target video track index (e.g. `2`). Set to `nil` to auto-add a fresh top video track. |
 
@@ -112,8 +112,8 @@ local TARGET_VIDEO_TRACK = 2           -- Target video track index (e.g. 2), or 
 ==================================================
 Project        : Demo_Project
 Timeline       : Main_Timeline
-Template Name  : TFx-Caption2
-Template Clip  : TFx-Caption2
+Template Name  : TFx-Caption
+Template Clip  : TFx-Caption
 Subtitle Clips : Found 32 item(s) on Subtitle Track 1
 Target Track   : Video Track 2 (existing tracks: 2)
 --------------------------------------------------
@@ -130,7 +130,7 @@ Text Updated   : 32/32 Fusion titles updated
   - Make sure the file extension is strictly **`.lua`** (not `.lua.txt`).
   - Confirm the folder path matches your operating system's `Fusion/Scripts/Utility` location.
   - Restart DaVinci Resolve.
-- **`Error: Template 'TFx-Caption2' was not found anywhere in the Media Pool`**:
+- **`Error: Template 'TFx-Caption' was not found anywhere in the Media Pool`**:
   - Ensure you have imported or created your title template in the Media Pool.
   - Check spelling and capitalization of `TEMPLATE_NAME`.
 - **`No subtitle clips found on Subtitle Track 1`**:
