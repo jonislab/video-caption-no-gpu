@@ -1,3 +1,13 @@
+## Prompt to generate the captions
+
+Generate captions from the timeline
+audio using the Media Pool template
+named 'MyCaption'. Place the generated 
+captions as text clips on Video Track 2
+instead of using a subtitle track.
+
+##
+
 TITLE: Rhiannon - The Strength to Endure
 
 In ancient Wales, there lived a woman named Rhiannon.
