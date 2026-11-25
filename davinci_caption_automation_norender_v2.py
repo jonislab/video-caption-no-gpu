@@ -641,7 +641,7 @@ def run_caption_workflow_norender(
 
 if __name__ == "__main__":
     try:
-        file_path = r"D:\m-edits\LiveDemo\drs-caption-automation\video"
+        file_path = r"D:\\REPLACE_TO_YOUR_VIDEO_PATH"
         video_file = os.path.join(file_path, "Rhiannon.mp4")
         srt_file = os.path.join(file_path, "captions.srt")
 
