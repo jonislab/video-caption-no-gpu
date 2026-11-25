@@ -183,7 +183,7 @@ def generate_srt_from_whisper(
 
 if __name__ == "__main__":
     try:
-        file_path = r"D:\\m-edits\\LiveDemo\\drs-caption-automation\\video\\"
+        file_path = r"C:\\REPLACE_TO_YOUR_PATH_TO_VIDEO"
         generate_srt_from_whisper(
             video_path=file_path + "Rhiannon.mp4",
             output_srt=file_path + "captions.srt",
