@@ -1,3 +1,5 @@
+# Use this script for generating SRT File on Davinci Resolve Free version
+
 import time
 import whisper
 
